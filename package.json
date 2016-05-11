@@ -1,0 +1,28 @@
+{
+	"name": "pop-writer",
+	"version": "0.0.0",
+	"description": "Writes to the filesystem the result of the pop-buffer implementation",
+	"main": "index.js",
+	"author": "padedou",
+	"license": "MIT",
+	"repository":{
+		"type": "git",
+		"url": "https://github.com/padedou/pop-writer.git"
+	},
+	"dependencies": {
+		"pop-buffer": "^1.0.2"
+	},
+	"devDependencies": {
+		"cube": "file:../cube",
+		"mybunny": "file:../mybunny"
+	},
+	"keywords": [
+		"write",
+		"filesystem",
+		"pop",
+		"buffer",
+		"progressive",
+		"mesh",
+		"lod"
+	]
+}
